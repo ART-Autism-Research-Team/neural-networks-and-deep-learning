@@ -5,7 +5,7 @@ param (
 
 if ($help) {
     Write-Output "Options:"
-    Write-Output "-script: path/to/script"
+    Write-Output "-script: A script listed inside Pipfile"
     Write-Output "-help: display this help"
     Exit
 }
@@ -18,4 +18,4 @@ if (-not $script) {
 # Add the root of the project to the python path
 $Env:PYTHONPATH += "$([IO.Path]::PathSeparator)${PSScriptRoot}"
 
-pipenv run python $script
+pipenv run $script

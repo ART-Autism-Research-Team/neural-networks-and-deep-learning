@@ -1,6 +1,7 @@
 {
-    "python.pythonPath": "/home/chigozirim/Development/virtualenvs/neural-networks-and-deep-learning-py-vPlgl12d/bin/python",
+    "python.pythonPath": "~/dev/.virtualenvs/neural-networks-and-deep-learning-py-Xi1YAheW/bin/python",
     "python.linting.enabled": true,
     "python.linting.maxNumberOfProblems": 50,
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
 }

@@ -11,3 +11,5 @@ Theano = "==0.7.0"
 pylint = "*"
 matplotlib = "*"
 
+[scripts]
+network1 = "python src/network.py"
